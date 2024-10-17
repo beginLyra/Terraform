@@ -1,6 +1,6 @@
 variable "project" {
   description = "the name project"
-  default = "otd"
+  default = "acsy"
 }
 
 variable "environment" {
@@ -17,7 +17,7 @@ variable "tags" {
   description = "All tags used"
   default ={
      environment = "dev"
-    project     = "otd"
+    project     = "acsy"
     created_by  = "terraform"
   } 
 }
