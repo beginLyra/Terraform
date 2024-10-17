@@ -11,7 +11,7 @@ resource "azurerm_mssql_server" "sql_server" {
 }
 
 resource "azurerm_mssql_database" "sql_db" {
-  name      = "otd.db"
+  name      = "acsy.db"
   server_id = azurerm_mssql_server.sql_server.id
   sku_name  = "S0"
   tags      = var.tags
